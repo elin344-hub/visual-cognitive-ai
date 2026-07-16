@@ -1,7 +1,8 @@
-opencv-python
-numpy
+Python
+OpenCV
+NumPy
 pandas
-matplotlib
+Matplotlib
+SciPy
 scikit-learn
-scipy
-jupyter
+Jupyter Notebook
