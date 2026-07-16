@@ -89,6 +89,7 @@ Technologies Used
 - Jupyter Notebook
 
 Repository Structure
+
 visual-complexity-perception/
 │
 ├── data/
