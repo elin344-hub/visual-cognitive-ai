@@ -1,10 +1,12 @@
 # Visual Complexity Perception: Comparing AI and Human Judgments
 Overview
+
 Humans and AI do not always perceive visual complexity in the same way. While computers can quantify low-level image characteristics such as edges, brightness, and color variation, it is unclear whether these features capture how people actually judge the complexity of a scene.
 
 This project investigates how closely AI predictions align with human perceptions of visual complexity. Using computational image features extracted from 80 images, I trained machine learning models to predict visual complexity and compared their predictions with participant ratings. I also analyzed where AI and humans agreed most, where they differed, and how researcher judgments compared with participant perceptions.
 
 Research Questions
+
 This project explores the following questions:
 - Can AI predict how humans perceive visual complexity?
 - Which image features best explain human judgments?
@@ -13,6 +15,7 @@ This project explores the following questions:
 - How similar are researcher-assigned ratings to participant perceptions?
 
 Dataset
+
 The dataset contains 80 images divided into four scene categories:
 - Messy Desks
 - Streets
@@ -29,6 +32,7 @@ Each image also includes:
 - Average participant complexity rating (five participants)
 
 Project Workflow
+
 Week 1 – Building the Dataset
 - Collected and organized 80 images across four scene categories.
 - Extracted computational image features using OpenCV.
@@ -43,6 +47,7 @@ Two machine learning models were trained to predict researcher-assigned complexi
 Model performance was evaluated using Mean Squared Error (MSE) and R² score, and feature importance analysis was used to identify which image characteristics most influenced predictions.
 
 Results
+
 Model	R²	MSE
 - Linear Regression	0.549	0.254
 - Random Forest	0.414	0.330
@@ -50,6 +55,7 @@ Model	R²	MSE
 Edge density was consistently the strongest predictor of researcher-rated complexity.
 
 Week 3 – Comparing AI and Human Perception
+
 The same modeling approach was applied to participant-rated complexity to investigate how well AI captures human visual perception.
 
 The analysis focused on:
@@ -60,6 +66,7 @@ The analysis focused on:
 - Examining differences across image categories
 
 Results
+
 Model	R²	MSE
 - Linear Regression	0.325	0.296
 - Random Forest	-0.093	0.480
@@ -96,6 +103,7 @@ visual-complexity-perception/
 └── README.md
 
 Running the Project
+
 1. Clone the repository.
    git clone <repository-url>
 2. Install the required packages.
@@ -108,6 +116,7 @@ Running the Project
 - Week 3 – Participant Prediction and AI–Human Comparison
 
 Future Work
+
 Potential improvements include:
 - Extracting higher-level visual features such as texture, entropy, object count, and deep learning embeddings.
 - Expanding the dataset with additional image categories.
