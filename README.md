@@ -3,7 +3,7 @@ Overview
 
 Humans and AI do not always perceive visual complexity in the same way. While computers can quantify low-level image characteristics such as edges, brightness, and color variation, it is unclear whether these features capture how people actually judge the complexity of a scene.
 
-This project investigates how closely AI predictions align with human perceptions of visual complexity. Using computational image features extracted from 80 images, I trained machine learning models to predict visual complexity and compared their predictions with participant ratings. I also analyzed where AI and humans agreed most, where they differed, and how researcher judgments compared with participant perceptions.
+This project investigates the relationship between computational image features, AI predictions, and human perception of visual complexity. Using computational image features extracted from 80 images, I trained machine learning models to predict visual complexity and compared their predictions with participant ratings. I also analyzed where AI and humans agreed most, where they differed, and how researcher judgments compared with participant perceptions.
 
 Research Questions
 
