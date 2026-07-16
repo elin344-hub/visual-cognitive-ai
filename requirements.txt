@@ -5,4 +5,4 @@ pandas
 Matplotlib
 SciPy
 scikit-learn
-Jupyter Notebook
+jupyter notebook
